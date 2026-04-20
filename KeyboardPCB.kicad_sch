@@ -7733,7 +7733,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "random-keyboard-parts:SOT143B"
 			(at 111.76 133.604 0)
 			(hide yes)
 			(show_name no)
@@ -8171,7 +8171,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "random-keyboard-parts:D_SOD-123-Pretty"
+		(property "Footprint" "random-keyboard-parts:Reset_Pretty-Mask"
 			(at 163.83 143.51 90)
 			(hide yes)
 			(show_name no)
