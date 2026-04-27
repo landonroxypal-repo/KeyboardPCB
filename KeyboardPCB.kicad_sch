@@ -7713,7 +7713,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c42425a2-deff-429d-aa7b-a67fffd298c1")
-		(property "Reference" "D1"
+		(property "Reference" "D0"
 			(at 127 125.6598 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7781,7 +7781,7 @@
 		(instances
 			(project "KeyboardPCB"
 				(path "/fcb3ea0f-2b01-4294-acd9-14d7363b0fdb"
-					(reference "D1")
+					(reference "D0")
 					(unit 1)
 				)
 			)

@@ -407,12 +407,6 @@
 		(uuid "0bc1b47d-414b-4f15-8436-6325d155cc8f")
 	)
 	(junction
-		(at 331.47 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0da3979d-e6d6-4e29-99d7-ee3cb57f0967")
-	)
-	(junction
 		(at 264.16 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -575,6 +569,12 @@
 		(uuid "46cbcc07-6d49-44da-9fdd-1323089a7619")
 	)
 	(junction
+		(at 102.87 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4bfde630-e0de-45b7-9f2b-2b4c2eb5cdad")
+	)
+	(junction
 		(at 179.07 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -669,6 +669,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "65401c20-8fcb-4405-88d5-c489cacbf528")
+	)
+	(junction
+		(at 331.47 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "670a4f69-e521-487c-aeea-cf1b595465d6")
 	)
 	(junction
 		(at 130.81 99.06)
@@ -975,12 +981,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dce5e636-f52c-45d1-b1cf-af0cd27f30e5")
-	)
-	(junction
-		(at 102.87 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ddf811be-bd99-4df0-8e85-0b52fc4e8e81")
 	)
 	(junction
 		(at 226.06 123.19)
@@ -1374,16 +1374,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 91.44) (xy 102.87 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40982705-9137-46c9-b9eb-b1ce608897f9")
-	)
-	(wire
-		(pts
 			(xy 179.07 43.18) (xy 179.07 67.31)
 		)
 		(stroke
@@ -1401,6 +1391,16 @@
 			(type default)
 		)
 		(uuid "425a1434-b849-4ea7-874d-b8da17b641e9")
+	)
+	(wire
+		(pts
+			(xy 331.47 43.18) (xy 331.47 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42af17cc-3cb0-4f73-8e81-00efa6387842")
 	)
 	(wire
 		(pts
@@ -1634,16 +1634,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 67.31) (xy 102.87 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70e505ec-30ab-4bcc-97d4-968108064474")
-	)
-	(wire
-		(pts
 			(xy 236.22 67.31) (xy 236.22 91.44)
 		)
 		(stroke
@@ -1824,6 +1814,16 @@
 	)
 	(wire
 		(pts
+			(xy 274.32 91.44) (xy 274.32 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e424d1c-8a51-452c-a0d2-9a2ee4e3107d")
+	)
+	(wire
+		(pts
 			(xy 312.42 67.31) (xy 312.42 91.44)
 		)
 		(stroke
@@ -1891,6 +1891,16 @@
 			(type default)
 		)
 		(uuid "ae42e040-c2de-4cdc-9120-23668a1887b0")
+	)
+	(wire
+		(pts
+			(xy 102.87 67.31) (xy 102.87 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae8c8b5a-8045-4adb-8053-6082ee598065")
 	)
 	(wire
 		(pts
@@ -2284,6 +2294,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 91.44) (xy 102.87 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f141b781-8cd2-47af-8ce6-2d85f8ef7cb9")
+	)
+	(wire
+		(pts
 			(xy 217.17 43.18) (xy 217.17 67.31)
 		)
 		(stroke
@@ -2291,16 +2311,6 @@
 			(type default)
 		)
 		(uuid "f15b6b2d-67d8-47b5-83d0-9cc20efaaede")
-	)
-	(wire
-		(pts
-			(xy 331.47 43.18) (xy 331.47 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f281281a-17a5-4715-a499-9cc91d24342d")
 	)
 	(wire
 		(pts
@@ -2361,16 +2371,6 @@
 			(type default)
 		)
 		(uuid "fb56914f-c50c-4b2d-8fdd-a7b773fca3fd")
-	)
-	(wire
-		(pts
-			(xy 274.32 91.44) (xy 274.32 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fdd9ce28-0a03-432f-a385-63991c710db8")
 	)
 	(wire
 		(pts
@@ -3114,7 +3114,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10749a7f-174e-47cc-babb-456b88854a6e")
-		(property "Reference" "D20"
+		(property "Reference" "D19"
 			(at 114.3 69.8499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3200,7 +3200,7 @@
 		(instances
 			(project "KeyboardPCB"
 				(path "/fcb3ea0f-2b01-4294-acd9-14d7363b0fdb/cecb711c-0bbe-4616-91ff-75f2127acdba"
-					(reference "D20")
+					(reference "D19")
 					(unit 1)
 				)
 			)
@@ -3218,7 +3218,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11f08c33-ed01-4ebe-b814-f40db92e2736")
-		(property "Reference" "D52"
+		(property "Reference" "D51"
 			(at 171.45 118.1099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3304,7 +3304,7 @@
 		(instances
 			(project "KeyboardPCB"
 				(path "/fcb3ea0f-2b01-4294-acd9-14d7363b0fdb/cecb711c-0bbe-4616-91ff-75f2127acdba"
-					(reference "D52")
+					(reference "D51")
 					(unit 1)
 				)
 			)
@@ -3322,7 +3322,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13c1392e-e4b3-452f-b537-38fb3140b607")
-		(property "Reference" "D48"
+		(property "Reference" "D47"
 			(at 95.25 118.1099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3408,7 +3408,7 @@
 		(instances
 			(project "KeyboardPCB"
 				(path "/fcb3ea0f-2b01-4294-acd9-14d7363b0fdb/cecb711c-0bbe-4616-91ff-75f2127acdba"
-					(reference "D48")
+					(reference "D47")
 					(unit 1)
 				)
 			)
@@ -3426,7 +3426,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14737f37-8054-4b43-9717-edae3650109a")
-		(property "Reference" "D32"
+		(property "Reference" "D31"
 			(at 57.15 93.9799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3512,7 +3512,7 @@
 		(instances
 			(project "KeyboardPCB"
 				(path "/fcb3ea0f-2b01-4294-acd9-14d7363b0fdb/cecb711c-0bbe-4616-91ff-75f2127acdba"
-					(reference "D32")
+					(reference "D31")
 					(unit 1)
 				)
 			)
@@ -3610,7 +3610,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15abd379-6f15-4bcb-b641-635e602afac1")
-		(property "Reference" "D45"
+		(property "Reference" "D44"
 			(at 323.85 93.9799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3696,7 +3696,7 @@
 		(instances
 			(project "KeyboardPCB"
 				(path "/fcb3ea0f-2b01-4294-acd9-14d7363b0fdb/cecb711c-0bbe-4616-91ff-75f2127acdba"
-					(reference "D45")
+					(reference "D44")
 					(unit 1)
 				)
 			)
@@ -3714,7 +3714,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "16368220-07f2-476c-9546-3befc8cdc360")
-		(property "Reference" "D30"
+		(property "Reference" "D29"
 			(at 304.8 69.8499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3800,7 +3800,7 @@
 		(instances
 			(project "KeyboardPCB"
 				(path "/fcb3ea0f-2b01-4294-acd9-14d7363b0fdb/cecb711c-0bbe-4616-91ff-75f2127acdba"
-					(reference "D30")
+					(reference "D29")
 					(unit 1)
 				)
 			)
@@ -3818,7 +3818,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1709cd8c-8b06-475e-9368-a9ebf0b15386")
-		(property "Reference" "D27"
+		(property "Reference" "D26"
 			(at 247.65 69.8499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3904,7 +3904,7 @@
 		(instances
 			(project "KeyboardPCB"
 				(path "/fcb3ea0f-2b01-4294-acd9-14d7363b0fdb/cecb711c-0bbe-4616-91ff-75f2127acdba"
-					(reference "D27")
+					(reference "D26")
 					(unit 1)
 				)
 			)
@@ -3922,7 +3922,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1811a77d-3c8f-440b-afb5-a6c8dd083e6e")
-		(property "Reference" "D22"
+		(property "Reference" "D21"
 			(at 152.4 69.8499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4008,7 +4008,7 @@
 		(instances
 			(project "KeyboardPCB"
 				(path "/fcb3ea0f-2b01-4294-acd9-14d7363b0fdb/cecb711c-0bbe-4616-91ff-75f2127acdba"
-					(reference "D22")
+					(reference "D21")
 					(unit 1)
 				)
 			)
@@ -4026,7 +4026,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b8c9156-f190-40c3-8b9e-a3976c875337")
-		(property "Reference" "D62"
+		(property "Reference" "D61"
 			(at 95.25 142.2399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4112,7 +4112,7 @@
 		(instances
 			(project "KeyboardPCB"
 				(path "/fcb3ea0f-2b01-4294-acd9-14d7363b0fdb/cecb711c-0bbe-4616-91ff-75f2127acdba"
-					(reference "D62")
+					(reference "D61")
 					(unit 1)
 				)
 			)
@@ -4210,7 +4210,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1cb800b8-58bf-4423-bb90-26cb85825e07")
-		(property "Reference" "D10"
+		(property "Reference" "D9"
 			(at 209.55 45.7199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4296,7 +4296,7 @@
 		(instances
 			(project "KeyboardPCB"
 				(path "/fcb3ea0f-2b01-4294-acd9-14d7363b0fdb/cecb711c-0bbe-4616-91ff-75f2127acdba"
-					(reference "D10")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -4394,7 +4394,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "238e6a9c-7a46-42ac-8286-20536463ccb0")
-		(property "Reference" "D56"
+		(property "Reference" "D55"
 			(at 247.65 118.1099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4480,7 +4480,7 @@
 		(instances
 			(project "KeyboardPCB"
 				(path "/fcb3ea0f-2b01-4294-acd9-14d7363b0fdb/cecb711c-0bbe-4616-91ff-75f2127acdba"
-					(reference "D56")
+					(reference "D55")
 					(unit 1)
 				)
 			)
@@ -4498,7 +4498,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "282c8610-b2dd-473b-908b-f06f18038b28")
-		(property "Reference" "D9"
+		(property "Reference" "D8"
 			(at 190.5 45.7199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4584,7 +4584,7 @@
 		(instances
 			(project "KeyboardPCB"
 				(path "/fcb3ea0f-2b01-4294-acd9-14d7363b0fdb/cecb711c-0bbe-4616-91ff-75f2127acdba"
-					(reference "D9")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -4842,7 +4842,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32563f39-b6f5-4c20-a60b-b217089f5a44")
-		(property "Reference" "D2"
+		(property "Reference" "D1"
 			(at 57.15 45.7199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4928,7 +4928,7 @@
 		(instances
 			(project "KeyboardPCB"
 				(path "/fcb3ea0f-2b01-4294-acd9-14d7363b0fdb/cecb711c-0bbe-4616-91ff-75f2127acdba"
-					(reference "D2")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -5106,7 +5106,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "35564db4-bfe7-4e32-9a9e-290d22ce9854")
-		(property "Reference" "D58"
+		(property "Reference" "D57"
 			(at 304.8 118.1099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5192,7 +5192,7 @@
 		(instances
 			(project "KeyboardPCB"
 				(path "/fcb3ea0f-2b01-4294-acd9-14d7363b0fdb/cecb711c-0bbe-4616-91ff-75f2127acdba"
-					(reference "D58")
+					(reference "D57")
 					(unit 1)
 				)
 			)
@@ -5370,7 +5370,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36b1be2c-8490-41da-876a-099da897a222")
-		(property "Reference" "D15"
+		(property "Reference" "D14"
 			(at 304.8 45.7199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5456,7 +5456,7 @@
 		(instances
 			(project "KeyboardPCB"
 				(path "/fcb3ea0f-2b01-4294-acd9-14d7363b0fdb/cecb711c-0bbe-4616-91ff-75f2127acdba"
-					(reference "D15")
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -5474,7 +5474,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38e1449d-d178-4000-938d-da5d1f0e86d7")
-		(property "Reference" "D29"
+		(property "Reference" "D28"
 			(at 285.75 69.8499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5560,7 +5560,7 @@
 		(instances
 			(project "KeyboardPCB"
 				(path "/fcb3ea0f-2b01-4294-acd9-14d7363b0fdb/cecb711c-0bbe-4616-91ff-75f2127acdba"
-					(reference "D29")
+					(reference "D28")
 					(unit 1)
 				)
 			)
@@ -5578,7 +5578,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a9a6ec2-0285-4df3-89e7-2b9531aeaa30")
-		(property "Reference" "D51"
+		(property "Reference" "D50"
 			(at 152.4 118.1099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5664,7 +5664,7 @@
 		(instances
 			(project "KeyboardPCB"
 				(path "/fcb3ea0f-2b01-4294-acd9-14d7363b0fdb/cecb711c-0bbe-4616-91ff-75f2127acdba"
-					(reference "D51")
+					(reference "D50")
 					(unit 1)
 				)
 			)
@@ -5922,7 +5922,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "424758d2-d8f2-42f6-b6d5-1f1380c9be49")
-		(property "Reference" "D8"
+		(property "Reference" "D7"
 			(at 171.45 45.7199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6008,7 +6008,7 @@
 		(instances
 			(project "KeyboardPCB"
 				(path "/fcb3ea0f-2b01-4294-acd9-14d7363b0fdb/cecb711c-0bbe-4616-91ff-75f2127acdba"
-					(reference "D8")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -6106,7 +6106,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47dfa166-b045-46bb-86fa-2bcb2276f47c")
-		(property "Reference" "D21"
+		(property "Reference" "D20"
 			(at 133.35 69.8499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6192,7 +6192,7 @@
 		(instances
 			(project "KeyboardPCB"
 				(path "/fcb3ea0f-2b01-4294-acd9-14d7363b0fdb/cecb711c-0bbe-4616-91ff-75f2127acdba"
-					(reference "D21")
+					(reference "D20")
 					(unit 1)
 				)
 			)
@@ -6370,7 +6370,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56f2d89c-1eb2-4f79-9def-e820d80c4be5")
-		(property "Reference" "D59"
+		(property "Reference" "D58"
 			(at 323.85 118.1099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6456,7 +6456,7 @@
 		(instances
 			(project "KeyboardPCB"
 				(path "/fcb3ea0f-2b01-4294-acd9-14d7363b0fdb/cecb711c-0bbe-4616-91ff-75f2127acdba"
-					(reference "D59")
+					(reference "D58")
 					(unit 1)
 				)
 			)
@@ -6474,7 +6474,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "574d3cf1-12ff-4096-aa16-5a7cb1fde467")
-		(property "Reference" "D35"
+		(property "Reference" "D34"
 			(at 114.3 93.9799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6560,7 +6560,7 @@
 		(instances
 			(project "KeyboardPCB"
 				(path "/fcb3ea0f-2b01-4294-acd9-14d7363b0fdb/cecb711c-0bbe-4616-91ff-75f2127acdba"
-					(reference "D35")
+					(reference "D34")
 					(unit 1)
 				)
 			)
@@ -6578,7 +6578,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "596fdc2f-7afa-4ebd-96c9-9d46f22c3f41")
-		(property "Reference" "D26"
+		(property "Reference" "D25"
 			(at 228.6 69.8499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6664,7 +6664,7 @@
 		(instances
 			(project "KeyboardPCB"
 				(path "/fcb3ea0f-2b01-4294-acd9-14d7363b0fdb/cecb711c-0bbe-4616-91ff-75f2127acdba"
-					(reference "D26")
+					(reference "D25")
 					(unit 1)
 				)
 			)
@@ -6682,7 +6682,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b49f935-0241-4b99-afd7-15008f292f02")
-		(property "Reference" "D6"
+		(property "Reference" "D5"
 			(at 133.35 45.7199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6768,7 +6768,7 @@
 		(instances
 			(project "KeyboardPCB"
 				(path "/fcb3ea0f-2b01-4294-acd9-14d7363b0fdb/cecb711c-0bbe-4616-91ff-75f2127acdba"
-					(reference "D6")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -6786,7 +6786,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5bb1482b-07ac-4481-bde3-3c772afc00a6")
-		(property "Reference" "D34"
+		(property "Reference" "D33"
 			(at 95.25 93.9799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6872,7 +6872,7 @@
 		(instances
 			(project "KeyboardPCB"
 				(path "/fcb3ea0f-2b01-4294-acd9-14d7363b0fdb/cecb711c-0bbe-4616-91ff-75f2127acdba"
-					(reference "D34")
+					(reference "D33")
 					(unit 1)
 				)
 			)
@@ -6970,7 +6970,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "604ec6be-bc30-4fdf-bf4c-88a37b2c3e6d")
-		(property "Reference" "D33"
+		(property "Reference" "D32"
 			(at 76.2 93.9799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7056,7 +7056,7 @@
 		(instances
 			(project "KeyboardPCB"
 				(path "/fcb3ea0f-2b01-4294-acd9-14d7363b0fdb/cecb711c-0bbe-4616-91ff-75f2127acdba"
-					(reference "D33")
+					(reference "D32")
 					(unit 1)
 				)
 			)
@@ -7074,7 +7074,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62ee512f-9f8c-4a3b-84d5-6959e76676a7")
-		(property "Reference" "D17"
+		(property "Reference" "D16"
 			(at 57.15 69.8499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7160,7 +7160,7 @@
 		(instances
 			(project "KeyboardPCB"
 				(path "/fcb3ea0f-2b01-4294-acd9-14d7363b0fdb/cecb711c-0bbe-4616-91ff-75f2127acdba"
-					(reference "D17")
+					(reference "D16")
 					(unit 1)
 				)
 			)
@@ -7178,7 +7178,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65059331-83b1-4cbf-abf5-48bb21f8f76b")
-		(property "Reference" "D63"
+		(property "Reference" "D62"
 			(at 171.45 142.2399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7264,7 +7264,7 @@
 		(instances
 			(project "KeyboardPCB"
 				(path "/fcb3ea0f-2b01-4294-acd9-14d7363b0fdb/cecb711c-0bbe-4616-91ff-75f2127acdba"
-					(reference "D63")
+					(reference "D62")
 					(unit 1)
 				)
 			)
@@ -7362,7 +7362,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b77b550-778a-4d28-bd32-31a553835e18")
-		(property "Reference" "D5"
+		(property "Reference" "D4"
 			(at 114.3 45.7199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7448,7 +7448,7 @@
 		(instances
 			(project "KeyboardPCB"
 				(path "/fcb3ea0f-2b01-4294-acd9-14d7363b0fdb/cecb711c-0bbe-4616-91ff-75f2127acdba"
-					(reference "D5")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -7466,7 +7466,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b7a6492-d2c6-4f45-b5be-ada9a52b1145")
-		(property "Reference" "D31"
+		(property "Reference" "D30"
 			(at 323.85 69.8499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7552,7 +7552,7 @@
 		(instances
 			(project "KeyboardPCB"
 				(path "/fcb3ea0f-2b01-4294-acd9-14d7363b0fdb/cecb711c-0bbe-4616-91ff-75f2127acdba"
-					(reference "D31")
+					(reference "D30")
 					(unit 1)
 				)
 			)
@@ -7650,7 +7650,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d6c4ea1-4cf6-44cd-82c2-7092d06cc78b")
-		(property "Reference" "D40"
+		(property "Reference" "D39"
 			(at 209.55 93.9799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7736,7 +7736,7 @@
 		(instances
 			(project "KeyboardPCB"
 				(path "/fcb3ea0f-2b01-4294-acd9-14d7363b0fdb/cecb711c-0bbe-4616-91ff-75f2127acdba"
-					(reference "D40")
+					(reference "D39")
 					(unit 1)
 				)
 			)
@@ -7752,7 +7752,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6f4b1f4f-dbb1-4225-a0ac-4593d14e4668")
 		(property "Reference" "SW1"
 			(at 59.69 35.56 0)
@@ -7914,7 +7913,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "726ab251-c2f2-4947-bee8-043de3bd661f")
-		(property "Reference" "D23"
+		(property "Reference" "D22"
 			(at 171.45 69.8499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8000,7 +7999,7 @@
 		(instances
 			(project "KeyboardPCB"
 				(path "/fcb3ea0f-2b01-4294-acd9-14d7363b0fdb/cecb711c-0bbe-4616-91ff-75f2127acdba"
-					(reference "D23")
+					(reference "D22")
 					(unit 1)
 				)
 			)
@@ -8178,7 +8177,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b37c9d8-be61-4f62-9bde-59d3283086e0")
-		(property "Reference" "D60"
+		(property "Reference" "D59"
 			(at 57.15 142.2399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8264,7 +8263,7 @@
 		(instances
 			(project "KeyboardPCB"
 				(path "/fcb3ea0f-2b01-4294-acd9-14d7363b0fdb/cecb711c-0bbe-4616-91ff-75f2127acdba"
-					(reference "D60")
+					(reference "D59")
 					(unit 1)
 				)
 			)
@@ -8282,7 +8281,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ce3a9a8-5b27-477d-992d-40228088f0be")
-		(property "Reference" "D13"
+		(property "Reference" "D12"
 			(at 266.7 45.7199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8368,7 +8367,7 @@
 		(instances
 			(project "KeyboardPCB"
 				(path "/fcb3ea0f-2b01-4294-acd9-14d7363b0fdb/cecb711c-0bbe-4616-91ff-75f2127acdba"
-					(reference "D13")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -8466,7 +8465,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "805e5f3e-0046-4f9f-bca0-364b5fc2b87d")
-		(property "Reference" "D24"
+		(property "Reference" "D23"
 			(at 190.5 69.8499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8552,7 +8551,7 @@
 		(instances
 			(project "KeyboardPCB"
 				(path "/fcb3ea0f-2b01-4294-acd9-14d7363b0fdb/cecb711c-0bbe-4616-91ff-75f2127acdba"
-					(reference "D24")
+					(reference "D23")
 					(unit 1)
 				)
 			)
@@ -8570,7 +8569,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8271fa11-c86a-4e8c-a945-2dc4a02bbce8")
-		(property "Reference" "D65"
+		(property "Reference" "D64"
 			(at 266.7 142.2399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8656,7 +8655,7 @@
 		(instances
 			(project "KeyboardPCB"
 				(path "/fcb3ea0f-2b01-4294-acd9-14d7363b0fdb/cecb711c-0bbe-4616-91ff-75f2127acdba"
-					(reference "D65")
+					(reference "D64")
 					(unit 1)
 				)
 			)
@@ -8674,7 +8673,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82b5f30b-108c-4565-a6f9-0aea9283dfb7")
-		(property "Reference" "D14"
+		(property "Reference" "D13"
 			(at 285.75 45.7199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8760,7 +8759,7 @@
 		(instances
 			(project "KeyboardPCB"
 				(path "/fcb3ea0f-2b01-4294-acd9-14d7363b0fdb/cecb711c-0bbe-4616-91ff-75f2127acdba"
-					(reference "D14")
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -8858,7 +8857,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "836fad3d-68a4-4ad2-b257-ee326b4a6bb7")
-		(property "Reference" "D66"
+		(property "Reference" "D65"
 			(at 285.75 142.2399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8944,7 +8943,7 @@
 		(instances
 			(project "KeyboardPCB"
 				(path "/fcb3ea0f-2b01-4294-acd9-14d7363b0fdb/cecb711c-0bbe-4616-91ff-75f2127acdba"
-					(reference "D66")
+					(reference "D65")
 					(unit 1)
 				)
 			)
@@ -9202,7 +9201,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c47e6ad-f7ac-4495-bea3-e74db6cdf6c6")
-		(property "Reference" "D38"
+		(property "Reference" "D37"
 			(at 171.45 93.9799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9288,7 +9287,7 @@
 		(instances
 			(project "KeyboardPCB"
 				(path "/fcb3ea0f-2b01-4294-acd9-14d7363b0fdb/cecb711c-0bbe-4616-91ff-75f2127acdba"
-					(reference "D38")
+					(reference "D37")
 					(unit 1)
 				)
 			)
@@ -9306,7 +9305,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e9ade05-8e2c-4d84-bbe0-0f2eee437921")
-		(property "Reference" "D49"
+		(property "Reference" "D48"
 			(at 114.3 118.1099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9392,7 +9391,7 @@
 		(instances
 			(project "KeyboardPCB"
 				(path "/fcb3ea0f-2b01-4294-acd9-14d7363b0fdb/cecb711c-0bbe-4616-91ff-75f2127acdba"
-					(reference "D49")
+					(reference "D48")
 					(unit 1)
 				)
 			)
@@ -9730,7 +9729,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "95ba3cc4-cf2c-453a-b2de-a990dd94bbca")
-		(property "Reference" "D67"
+		(property "Reference" "D66"
 			(at 304.8 142.2399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9816,7 +9815,7 @@
 		(instances
 			(project "KeyboardPCB"
 				(path "/fcb3ea0f-2b01-4294-acd9-14d7363b0fdb/cecb711c-0bbe-4616-91ff-75f2127acdba"
-					(reference "D67")
+					(reference "D66")
 					(unit 1)
 				)
 			)
@@ -9834,7 +9833,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "981390ee-f354-48d5-9e71-7f1074dd402f")
-		(property "Reference" "D68"
+		(property "Reference" "D67"
 			(at 323.85 142.2399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9921,7 +9920,7 @@
 		(instances
 			(project "KeyboardPCB"
 				(path "/fcb3ea0f-2b01-4294-acd9-14d7363b0fdb/cecb711c-0bbe-4616-91ff-75f2127acdba"
-					(reference "D68")
+					(reference "D67")
 					(unit 1)
 				)
 			)
@@ -10179,7 +10178,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a61028da-6061-42f9-b314-ec494362cbbb")
-		(property "Reference" "D54"
+		(property "Reference" "D53"
 			(at 209.55 118.1099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10265,7 +10264,7 @@
 		(instances
 			(project "KeyboardPCB"
 				(path "/fcb3ea0f-2b01-4294-acd9-14d7363b0fdb/cecb711c-0bbe-4616-91ff-75f2127acdba"
-					(reference "D54")
+					(reference "D53")
 					(unit 1)
 				)
 			)
@@ -10283,7 +10282,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6d4a20f-84a2-49ad-a3c1-7c7714f274dd")
-		(property "Reference" "D47"
+		(property "Reference" "D46"
 			(at 76.2 118.1099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10369,7 +10368,7 @@
 		(instances
 			(project "KeyboardPCB"
 				(path "/fcb3ea0f-2b01-4294-acd9-14d7363b0fdb/cecb711c-0bbe-4616-91ff-75f2127acdba"
-					(reference "D47")
+					(reference "D46")
 					(unit 1)
 				)
 			)
@@ -10387,7 +10386,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9a5ff07-821f-4701-8aa2-c66592d82221")
-		(property "Reference" "D36"
+		(property "Reference" "D35"
 			(at 133.35 93.9799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10473,7 +10472,7 @@
 		(instances
 			(project "KeyboardPCB"
 				(path "/fcb3ea0f-2b01-4294-acd9-14d7363b0fdb/cecb711c-0bbe-4616-91ff-75f2127acdba"
-					(reference "D36")
+					(reference "D35")
 					(unit 1)
 				)
 			)
@@ -10731,7 +10730,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4457dd1-75d3-4dc4-bd41-1e7c1f442851")
-		(property "Reference" "D37"
+		(property "Reference" "D36"
 			(at 152.4 93.9799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10817,7 +10816,7 @@
 		(instances
 			(project "KeyboardPCB"
 				(path "/fcb3ea0f-2b01-4294-acd9-14d7363b0fdb/cecb711c-0bbe-4616-91ff-75f2127acdba"
-					(reference "D37")
+					(reference "D36")
 					(unit 1)
 				)
 			)
@@ -11075,7 +11074,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd933dea-2ce1-48ad-a2b0-be6401ba40df")
-		(property "Reference" "D39"
+		(property "Reference" "D38"
 			(at 190.5 93.9799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11161,7 +11160,7 @@
 		(instances
 			(project "KeyboardPCB"
 				(path "/fcb3ea0f-2b01-4294-acd9-14d7363b0fdb/cecb711c-0bbe-4616-91ff-75f2127acdba"
-					(reference "D39")
+					(reference "D38")
 					(unit 1)
 				)
 			)
@@ -11339,7 +11338,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1d603c4-1fe4-4c44-a35d-9f8753281779")
-		(property "Reference" "D46"
+		(property "Reference" "D45"
 			(at 57.15 118.1099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11425,7 +11424,7 @@
 		(instances
 			(project "KeyboardPCB"
 				(path "/fcb3ea0f-2b01-4294-acd9-14d7363b0fdb/cecb711c-0bbe-4616-91ff-75f2127acdba"
-					(reference "D46")
+					(reference "D45")
 					(unit 1)
 				)
 			)
@@ -11443,7 +11442,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c229d2c8-5b6a-489c-b9a1-8382bedeb62d")
-		(property "Reference" "D11"
+		(property "Reference" "D10"
 			(at 228.6 45.7199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11529,7 +11528,7 @@
 		(instances
 			(project "KeyboardPCB"
 				(path "/fcb3ea0f-2b01-4294-acd9-14d7363b0fdb/cecb711c-0bbe-4616-91ff-75f2127acdba"
-					(reference "D11")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -11787,7 +11786,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9f2ef14-1daf-4cd7-89cb-c6a7d90bdf7d")
-		(property "Reference" "D12"
+		(property "Reference" "D11"
 			(at 247.65 45.7199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11873,7 +11872,7 @@
 		(instances
 			(project "KeyboardPCB"
 				(path "/fcb3ea0f-2b01-4294-acd9-14d7363b0fdb/cecb711c-0bbe-4616-91ff-75f2127acdba"
-					(reference "D12")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -11891,7 +11890,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc6c6ef8-dd16-400a-ac66-20c7276d32f7")
-		(property "Reference" "D3"
+		(property "Reference" "D2"
 			(at 76.2 45.7199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11977,7 +11976,7 @@
 		(instances
 			(project "KeyboardPCB"
 				(path "/fcb3ea0f-2b01-4294-acd9-14d7363b0fdb/cecb711c-0bbe-4616-91ff-75f2127acdba"
-					(reference "D3")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -11995,7 +11994,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd3a248b-ff07-4780-8c3a-62d1e62da794")
-		(property "Reference" "D25"
+		(property "Reference" "D24"
 			(at 209.55 69.8499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12081,7 +12080,7 @@
 		(instances
 			(project "KeyboardPCB"
 				(path "/fcb3ea0f-2b01-4294-acd9-14d7363b0fdb/cecb711c-0bbe-4616-91ff-75f2127acdba"
-					(reference "D25")
+					(reference "D24")
 					(unit 1)
 				)
 			)
@@ -12499,7 +12498,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d63303f8-b2c3-48b2-8878-387321e3a451")
-		(property "Reference" "D7"
+		(property "Reference" "D6"
 			(at 152.4 45.7199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12585,7 +12584,7 @@
 		(instances
 			(project "KeyboardPCB"
 				(path "/fcb3ea0f-2b01-4294-acd9-14d7363b0fdb/cecb711c-0bbe-4616-91ff-75f2127acdba"
-					(reference "D7")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -12603,7 +12602,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d64ab651-b149-456d-b66d-9cc9edab94b3")
-		(property "Reference" "D55"
+		(property "Reference" "D54"
 			(at 228.6 118.1099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12689,7 +12688,7 @@
 		(instances
 			(project "KeyboardPCB"
 				(path "/fcb3ea0f-2b01-4294-acd9-14d7363b0fdb/cecb711c-0bbe-4616-91ff-75f2127acdba"
-					(reference "D55")
+					(reference "D54")
 					(unit 1)
 				)
 			)
@@ -12707,7 +12706,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d864be3f-254b-4b6f-b537-680a660b1273")
-		(property "Reference" "D19"
+		(property "Reference" "D18"
 			(at 95.25 69.8499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12793,7 +12792,7 @@
 		(instances
 			(project "KeyboardPCB"
 				(path "/fcb3ea0f-2b01-4294-acd9-14d7363b0fdb/cecb711c-0bbe-4616-91ff-75f2127acdba"
-					(reference "D19")
+					(reference "D18")
 					(unit 1)
 				)
 			)
@@ -12811,7 +12810,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d94042dd-2dbd-42d5-a5e3-507fdd3421d5")
-		(property "Reference" "D44"
+		(property "Reference" "D43"
 			(at 304.8 93.9799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12897,7 +12896,7 @@
 		(instances
 			(project "KeyboardPCB"
 				(path "/fcb3ea0f-2b01-4294-acd9-14d7363b0fdb/cecb711c-0bbe-4616-91ff-75f2127acdba"
-					(reference "D44")
+					(reference "D43")
 					(unit 1)
 				)
 			)
@@ -13155,7 +13154,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df15880f-23da-4e67-8f3c-ad3f862cb9f6")
-		(property "Reference" "D57"
+		(property "Reference" "D56"
 			(at 285.75 118.1099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13241,7 +13240,7 @@
 		(instances
 			(project "KeyboardPCB"
 				(path "/fcb3ea0f-2b01-4294-acd9-14d7363b0fdb/cecb711c-0bbe-4616-91ff-75f2127acdba"
-					(reference "D57")
+					(reference "D56")
 					(unit 1)
 				)
 			)
@@ -13259,7 +13258,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df6fca97-6c5c-45de-b1e2-f6ff00bda53a")
-		(property "Reference" "D43"
+		(property "Reference" "D42"
 			(at 266.7 93.9799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13345,7 +13344,7 @@
 		(instances
 			(project "KeyboardPCB"
 				(path "/fcb3ea0f-2b01-4294-acd9-14d7363b0fdb/cecb711c-0bbe-4616-91ff-75f2127acdba"
-					(reference "D43")
+					(reference "D42")
 					(unit 1)
 				)
 			)
@@ -13443,7 +13442,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2a78d1e-3274-46e3-8472-49cf4c605afe")
-		(property "Reference" "D41"
+		(property "Reference" "D40"
 			(at 228.6 93.9799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13529,7 +13528,7 @@
 		(instances
 			(project "KeyboardPCB"
 				(path "/fcb3ea0f-2b01-4294-acd9-14d7363b0fdb/cecb711c-0bbe-4616-91ff-75f2127acdba"
-					(reference "D41")
+					(reference "D40")
 					(unit 1)
 				)
 			)
@@ -13547,7 +13546,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e35d1071-34b3-4b4b-8b90-73fae43e4837")
-		(property "Reference" "D18"
+		(property "Reference" "D17"
 			(at 76.2 69.8499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13633,7 +13632,7 @@
 		(instances
 			(project "KeyboardPCB"
 				(path "/fcb3ea0f-2b01-4294-acd9-14d7363b0fdb/cecb711c-0bbe-4616-91ff-75f2127acdba"
-					(reference "D18")
+					(reference "D17")
 					(unit 1)
 				)
 			)
@@ -13651,7 +13650,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4bc47cd-4e07-4199-b1c3-d88013ac6c91")
-		(property "Reference" "D4"
+		(property "Reference" "D3"
 			(at 95.25 45.7199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13737,7 +13736,7 @@
 		(instances
 			(project "KeyboardPCB"
 				(path "/fcb3ea0f-2b01-4294-acd9-14d7363b0fdb/cecb711c-0bbe-4616-91ff-75f2127acdba"
-					(reference "D4")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -13835,7 +13834,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e78697c3-2f75-4c23-8a04-c1543235d636")
-		(property "Reference" "D64"
+		(property "Reference" "D63"
 			(at 247.65 142.2399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13921,7 +13920,7 @@
 		(instances
 			(project "KeyboardPCB"
 				(path "/fcb3ea0f-2b01-4294-acd9-14d7363b0fdb/cecb711c-0bbe-4616-91ff-75f2127acdba"
-					(reference "D64")
+					(reference "D63")
 					(unit 1)
 				)
 			)
@@ -13939,7 +13938,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e7d5a843-ac75-4231-b431-ac2059885ad4")
-		(property "Reference" "D42"
+		(property "Reference" "D41"
 			(at 247.65 93.9799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14025,7 +14024,7 @@
 		(instances
 			(project "KeyboardPCB"
 				(path "/fcb3ea0f-2b01-4294-acd9-14d7363b0fdb/cecb711c-0bbe-4616-91ff-75f2127acdba"
-					(reference "D42")
+					(reference "D41")
 					(unit 1)
 				)
 			)
@@ -14123,7 +14122,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec3af710-9c80-4fc5-9886-cb4bb6562bc9")
-		(property "Reference" "D53"
+		(property "Reference" "D52"
 			(at 190.5 118.1099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14209,7 +14208,7 @@
 		(instances
 			(project "KeyboardPCB"
 				(path "/fcb3ea0f-2b01-4294-acd9-14d7363b0fdb/cecb711c-0bbe-4616-91ff-75f2127acdba"
-					(reference "D53")
+					(reference "D52")
 					(unit 1)
 				)
 			)
@@ -14307,7 +14306,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef7878d6-f5df-48f7-b65a-597f260569c3")
-		(property "Reference" "D28"
+		(property "Reference" "D27"
 			(at 266.7 69.8499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14393,7 +14392,7 @@
 		(instances
 			(project "KeyboardPCB"
 				(path "/fcb3ea0f-2b01-4294-acd9-14d7363b0fdb/cecb711c-0bbe-4616-91ff-75f2127acdba"
-					(reference "D28")
+					(reference "D27")
 					(unit 1)
 				)
 			)
@@ -14571,7 +14570,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f24060af-64b4-46f1-b23d-2bb320397662")
-		(property "Reference" "D16"
+		(property "Reference" "D15"
 			(at 323.85 45.7199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14657,7 +14656,7 @@
 		(instances
 			(project "KeyboardPCB"
 				(path "/fcb3ea0f-2b01-4294-acd9-14d7363b0fdb/cecb711c-0bbe-4616-91ff-75f2127acdba"
-					(reference "D16")
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -14915,7 +14914,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f9b22a63-f604-4849-8549-7503078e8851")
-		(property "Reference" "D61"
+		(property "Reference" "D60"
 			(at 76.2 142.2399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15001,7 +15000,7 @@
 		(instances
 			(project "KeyboardPCB"
 				(path "/fcb3ea0f-2b01-4294-acd9-14d7363b0fdb/cecb711c-0bbe-4616-91ff-75f2127acdba"
-					(reference "D61")
+					(reference "D60")
 					(unit 1)
 				)
 			)
@@ -15099,7 +15098,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff19c887-ea8f-47bf-b9ba-3d42553546a0")
-		(property "Reference" "D50"
+		(property "Reference" "D49"
 			(at 133.35 118.1099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15185,7 +15184,7 @@
 		(instances
 			(project "KeyboardPCB"
 				(path "/fcb3ea0f-2b01-4294-acd9-14d7363b0fdb/cecb711c-0bbe-4616-91ff-75f2127acdba"
-					(reference "D50")
+					(reference "D49")
 					(unit 1)
 				)
 			)
