@@ -34300,7 +34300,7 @@
 		(uuid "c7f12a69-7530-492f-ad22-16ab2c4f6340")
 		(at 204.781045 65.930758)
 		(property "Reference" "USB1"
-			(at 0 10.2 0)
+			(at 0 10.2 180)
 			(layer "B.SilkS")
 			(uuid "a7feeb37-2bf3-4618-90e6-23774daa9cd7")
 			(effects
@@ -34312,7 +34312,7 @@
 			)
 		)
 		(property "Value" "HRO-TYPE-C-31-M-12"
-			(at 0 -1.15 0)
+			(at 0 -1.15 180)
 			(layer "Dwgs.User")
 			(uuid "68f47982-547e-49ba-a17e-b85dc850c890")
 			(effects
@@ -34323,7 +34323,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "bce1491f-de39-44fe-be4f-5c4518e7e481")
@@ -34335,7 +34335,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "effabc0a-944e-47dc-9ef5-5fee74454357")
@@ -34349,12 +34349,6 @@
 		(path "/6b2f0e51-f163-4700-b026-4470f3bc5807")
 		(sheetname "/")
 		(sheetfile "KeyboardPCB.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4" "5" "6" "7" "8" "9" "10" "11" "12" "13")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -34564,6 +34558,17 @@
 			(uuid "0bdfc7fe-e014-45b3-acbd-3608b387d9be")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/Type-C.pretty/HRO  TYPE-C-31-M-12.step"
+			(offset
+				(xyz -4.475 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
