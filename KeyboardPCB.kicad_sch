@@ -6283,7 +6283,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "10u"
 			(at 190.5 97.7962 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6294,7 +6294,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 187.96 96.52 0)
 			(hide yes)
 			(show_name no)
